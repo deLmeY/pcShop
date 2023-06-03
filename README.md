@@ -47,7 +47,7 @@ String type; // обязательное поле для определения 
 {"type":"hdd", "series":"first", "manufacturer":"LG", "price":"1000", "quantity":"2", "volume":"75"}
 ````
 Пример GET запроса для получения монитора с id = 1:
-- http://localhost:9000/get/monitor/1
+ "http://localhost:9000/get/monitor/1"
 
 
 - тип_продукта(type) - desktop_monitor, hdd, laptop или monitor.
