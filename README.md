@@ -46,10 +46,13 @@ String type; // обязательное поле для определения 
 ````json 
 {"type":"hdd", "series":"first", "manufacturer":"LG", "price":"1000", "quantity":"2", "volume":"75"}
 ````
-Пример GET запроса для получения монитора с id = 1:
- "http://localhost:9000/get/monitor/1"
+Пример GET запроса для получения определенного товара с id = 1:
+ - "http://localhost:9000/get/monitor/1"
+ - "http://localhost:9000/get/desktop_monitor/1"
+ - "http://localhost:9000/get/hdd/1"
+ - "http://localhost:9000/get/laptop/1"
 
-
+Типы:
 - тип_продукта(type) - desktop_monitor, hdd, laptop или monitor.
 - id_продукта - id продукта, который хотим получить.
 
